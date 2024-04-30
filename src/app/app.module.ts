@@ -18,6 +18,8 @@ import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
 import { ToastrModule } from 'ngx-toastr';
 import { FeaturedContentComponent } from './pages/featured-content/featured-content.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ServicesComponent } from './pages/services/services.component';
+import { FooterComponent } from './pages/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,8 @@ import { HomeComponent } from './pages/home/home.component';
     ContactComponent,
     FeaturedContentComponent,
     HomeComponent,
+    ServicesComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

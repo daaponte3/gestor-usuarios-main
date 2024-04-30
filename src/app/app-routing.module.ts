@@ -4,6 +4,7 @@ import { ListComponent } from './pages/product/list.component';
 import { UsersComponent } from './pages/users/users.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ServicesComponent } from './pages/services/services.component';
 
 //Login
 import { LoginComponent } from './pages/login/login.component';
@@ -12,7 +13,8 @@ import { LoginComponent } from './pages/login/login.component';
 const routes: Routes = [
   {path: '', component: LoginComponent},
   {path: 'home', component: HomeComponent},
-  {path: 'list', component: ListComponent},
+  {path: 'list-services', component: ServicesComponent},
+  {path: 'list-products', component: ListComponent},
   {path: 'profile', component: UsersComponent},
   {path: 'contact', component: ContactComponent},
   {
